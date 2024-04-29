@@ -1,0 +1,237 @@
+@import "scss/divider-right.scss";
+@import "scss/about-me-page.scss";
+
+.text-elegant {
+  font-family: 'Allura';
+}
+
+// general
+body {
+  background-image: linear-gradient(to top, $primaryLightRGB, $secondaryLightRGB), url("/assets/images/background-image.svg");
+  background-size: contain;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.w-75 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75rem;
+}
+
+.image-container {
+  width: 30rem;
+  height: 30rem;
+  margin: 0 1.25rem;
+}
+
+@media (max-width: 575.98px) {
+  .image {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .image {
+    margin-left: 1rem;
+  }
+}
+
+.image {
+  position: absolute;
+  margin-top: 1rem;
+  max-width: 12.5rem;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.explanation {
+  max-width: 23.75rem;
+}
+
+/*.cursor {
+  position: absolute;
+  width: 55rem;
+  height: 55rem;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.036852240896358524) 4%,
+    rgba(255, 255, 255, 0.022846638655462215) 23%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}*/
+//
+
+// header
+.header {
+  padding-top: 15rem;
+  padding-bottom: 16rem;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-in {
+  animation: 1s ease 0.1s 1 slideInFromLeft;
+}
+//
+
+// projects
+.project {
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.animated-svg {
+  z-index: 1;
+  max-width: 30rem;
+  height: auto;
+  position: absolute;
+}
+
+@media (max-width: 575.98px) {
+  #slider-1 {
+    width: 250px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 575.98px) {
+  #slider-1 {
+    width: 380px;
+    height: 180px;
+  }
+}
+
+.svg-1,
+.svg-2 {
+  stroke-width: 0.4;
+  fill: none;
+  stroke: transparent;
+  transition: stroke 0.5s, stroke-dashoffset 0.5s;
+}
+
+.fill-transition {
+  stroke-width: 0.4;
+  stroke: $senary;
+  fill: none;
+  transition: stroke 0.5s, stroke-dashoffset 0.5s;
+}
+
+.coming-soon {
+  filter: blur(0.3rem);
+}
+//
+
+// about me
+.about-me {
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.profile-image {
+  position: absolute;
+  max-width: 16.5rem;
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2),
+    0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-me-text {
+  max-width: 37.5rem;
+}
+//
+
+//skills
+.skills {
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.skills-text {
+  max-width: 44rem;
+}
+
+.skills-list {
+  column-gap: 0.8rem;
+  row-gap: 0.8rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 8px;
+  gap: 8px;
+  background-color: #2b3d42;
+  color: #ad9ab6;
+}
+//
+
+// information
+.info {
+  padding: 5rem 0;
+}
+
+.eMail,
+.linkedIn {
+  position: relative;
+  display: inline-block;
+  color: $senary;
+
+  &:hover {
+    color: $quinary;
+    cursor: pointer;
+  }
+}
+
+.eMail .tooltip-text {
+  visibility: hidden;
+  width: 7.5rem;
+  background-color: $tertiary;
+  color: $senary;
+  text-align: center;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -3.75rem;
+}
+
+.linkedIn .tooltip-text {
+  visibility: hidden;
+  width: 15rem;
+  background-color: $tertiary;
+  color: $senary;
+  text-align: center;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -7.5rem;
+}
+
+.eMail:hover .tooltip-text,
+.linkedIn:hover .tooltip-text {
+  visibility: visible;
+}
+//

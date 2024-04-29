@@ -1,0 +1,91 @@
+@import "variables";
+
+// override bootstrap classes, because bootstrap is imported via CDN stylesheets
+
+
+// text
+.text-primary {
+    color: $primary !important;
+}
+.text-secondary {
+    color: $secondary !important;
+}
+.text-tertiary {
+    color: $tertiary !important;
+}
+.text-quaternary {
+    color: $quaternary !important;
+}
+.text-quinary {
+    color: $quinary !important;
+}
+.text-senary {
+    color: $senary !important;
+}
+
+
+//border
+.border-bottom {
+    border-color: $quaternary !important;
+}
+
+
+//button
+.btn-quaternary {
+    background-color: $quaternary;
+    color: $primary;
+    &:hover {
+        background-color: darken($quaternary, 10%);
+        color: $senary;
+    }
+    &:disabled{
+        border-color: darken($quaternary, 10%);
+    }
+}
+.btn-secondary {
+    background-color: $secondary !important;
+    color: $quinary !important;
+    &:hover {
+        background-color: darken($secondary, 10%) !important;
+        color: $senary !important;
+    }
+}
+.btn-tertiary {
+    background-color: $tertiary;
+    color: $quinary;
+    &:hover {
+        background-color: darken($tertiary, 10%);
+        color: $senary;
+    }
+}
+.btn-outline-tertiary {
+    background-color: transparent;
+    color: $tertiary;
+    border-color: $tertiary;
+    &:hover {
+        border-color: darken($tertiary, 10%);
+        color: darken($tertiary, 10%);
+    }
+}
+
+
+
+// background
+.bg-primary {
+    background-color: $primary !important;
+}
+.bg-secondary {
+    background-color: $secondary !important;
+}
+.bg-tertiary {
+    background-color: $tertiary !important;
+}
+.bg-quaternary {
+    background-color: $quaternary !important;
+}
+.bg-quinary {
+    background-color: $quinary !important;
+}
+.bg-senary {
+    background-color: $senary !important;
+}

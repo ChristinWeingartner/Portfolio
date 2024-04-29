@@ -1,0 +1,16 @@
+$white: #fff;
+
+$primary: #151f1e;
+$secondary: #2b3d42;
+$tertiary: #4b5d6b;
+$quaternary: #777c94;
+$quinary: #ad9ab6;
+$senary: #e7bacf;
+
+$primaryLightRGB: rgb(21, 31, 30, 0.9);
+$secondaryLightRGB: rgb(43, 61, 66, 0.9);
+
+@font-face {
+  font-family: "Allura";
+  src: url(/assets/fonts/Allura-Regular.otf) format("opentype");
+}

@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Allura";
+  src: url(/assets/fonts/Allura-Regular.otf) format("opentype");
+}
+.text-primary {
+  color: #151f1e !important;
+}
+
+.text-secondary {
+  color: #2b3d42 !important;
+}
+
+.text-tertiary {
+  color: #4b5d6b !important;
+}
+
+.text-quaternary {
+  color: #777c94 !important;
+}
+
+.text-quinary {
+  color: #ad9ab6 !important;
+}
+
+.text-senary {
+  color: #e7bacf !important;
+}
+
+.border-bottom {
+  border-color: #777c94 !important;
+}
+
+.btn-quaternary {
+  background-color: #777c94;
+  color: #151f1e;
+}
+.btn-quaternary:hover {
+  background-color: #5f6479;
+  color: #e7bacf;
+}
+.btn-quaternary:disabled {
+  border-color: #5f6479;
+}
+
+.btn-secondary {
+  background-color: #2b3d42 !important;
+  color: #ad9ab6 !important;
+}
+.btn-secondary:hover {
+  background-color: #172023 !important;
+  color: #e7bacf !important;
+}
+
+.btn-tertiary {
+  background-color: #4b5d6b;
+  color: #ad9ab6;
+}
+.btn-tertiary:hover {
+  background-color: #36434d;
+  color: #e7bacf;
+}
+
+.btn-outline-tertiary {
+  background-color: transparent;
+  color: #4b5d6b;
+  border-color: #4b5d6b;
+}
+.btn-outline-tertiary:hover {
+  border-color: #36434d;
+  color: #36434d;
+}
+
+.bg-primary {
+  background-color: #151f1e !important;
+}
+
+.bg-secondary {
+  background-color: #2b3d42 !important;
+}
+
+.bg-tertiary {
+  background-color: #4b5d6b !important;
+}
+
+.bg-quaternary {
+  background-color: #777c94 !important;
+}
+
+.bg-quinary {
+  background-color: #ad9ab6 !important;
+}
+
+.bg-senary {
+  background-color: #e7bacf !important;
+}
