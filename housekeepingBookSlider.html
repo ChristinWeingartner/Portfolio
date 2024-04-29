@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" style="overflow: hidden;">
+<html lang="en" style="overflow: hidden">
   <head>
     <title>Housekeeping book slider</title>
     <meta charset="utf-8" />
+    <link href="/assets/css/slider.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Slideshow container -->
@@ -47,113 +48,7 @@
       <span class="dot" onclick="currentSlide(3)"></span>
       <span class="dot" onclick="currentSlide(4)"></span>
     </div>
-<style>
 
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-}
-
-.image {
-  width: 100%;
-  left:8px;
-  position: relative;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 10px;
-  color: #E7BACF;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 6px;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: #4B5D6B;
-}
-
-.dot {
-  cursor: pointer;
-  height: 6px;
-  width: 6px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #E7BACF;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-</style>
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
-
-      // Next/previous controls
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-    </script>
+    <script src="/assets/scripts/housekeepingBookSlider.js"></script>
   </body>
 </html>

@@ -1,13 +1,19 @@
 @import "scss/divider-right.scss";
 @import "scss/about-me-page.scss";
+@import "scss/slider.scss";
 
 .text-elegant {
-  font-family: 'Allura';
+  font-family: "Allura";
 }
 
 // general
 body {
-  background-image: linear-gradient(to top, $primaryLightRGB, $secondaryLightRGB), url("/assets/images/background-image.svg");
+  background-image: linear-gradient(
+      to top,
+      $primaryLightRGB,
+      $secondaryLightRGB
+    ),
+    url("/assets/images/background-image.svg");
   background-size: contain;
   background-attachment: fixed;
   overflow-x: hidden;
