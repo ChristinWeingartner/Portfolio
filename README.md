@@ -16,6 +16,8 @@ Here are my current and upcoming projects:
 <p>
 Housekeeping Book is a user-friendly application for monitoring monthly household expenses. In addition to calculating the average amount per month and the individual contribution per person, it also offers several other useful features.</p>
 
+[2.2] [Check it out][2] 
+
 <br />
 
 ### Project in planning: Vue Blueprint Project
@@ -31,3 +33,7 @@ This project aims to test my Vue blueprint and create a gallery for my paintings
 [1]: https://www.linkedin.com/in/christin-mietschnig-9a402a213
 
 [1.2]: https://github.com/CMietschnig/Portfolio/blob/44b7a0dbf6ffd1cde8c5554c8f0da12abbe2fb24/assets/images/ReadMe/linkedIn-18.png
+
+[2]: https://github.com/CMietschnig/Housekeeping-Book
+
+[2.2]: https://github.com/CMietschnig/Portfolio/blob/44b7a0dbf6ffd1cde8c5554c8f0da12abbe2fb24/assets/images/ReadMe/linkedIn-18.png
