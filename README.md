@@ -2,7 +2,7 @@
 
 # Hi there,
 
-My name is Christin Mietschnig and I'm a software developer from Austria. You can find me on [![LinkedIn][1.2]][1].
+My name is Christin Mietschnig and I'm a software developer from Austria. You can find me on <a href="www.linkedin.com/in/christin-mietschnig-9a402a213"><img src="./assets/images/ReadMe/linkedIn.png" alt="LinkedIn" width="16px" height="16px" /></a>.
 
 ## Projects
 Here are my current and upcoming projects:
@@ -27,9 +27,3 @@ Warteschlange
 - ASP.NET MVC (C#)
 - SQL (MSSQl)
 - Git, GitHub
-
-
-<!-- links to social media accounts -->
-
-[1]: www.linkedin.com/in/christin-mietschnig-9a402a213
-[1.2]: ./assets/images/ReadMe/linkedIn.png
