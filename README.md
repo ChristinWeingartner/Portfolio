@@ -26,7 +26,7 @@ The tool is currently in the planning phase and is designed to calculate yarn co
 
 <!-- links and images -->
 
-[1]: www.linkedin.com/in/christin-weingartner-9a402a213 
+[1]: https://www.linkedin.com/in/christin-weingartner-9a402a213 
 
 [1.2]: https://github.com/CMietschnig/Portfolio/blob/44b7a0dbf6ffd1cde8c5554c8f0da12abbe2fb24/assets/images/ReadMe/linkedIn-18.png
 
