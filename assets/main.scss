@@ -168,7 +168,8 @@ body {
 }
 
 .eMail,
-.linkedIn {
+.linkedIn,
+.github {
   position: relative;
   display: inline-block;
   color: $senary;
@@ -196,7 +197,8 @@ body {
   margin-left: -3.75rem;
 }
 
-.linkedIn .tooltip-text {
+.linkedIn .tooltip-text,
+.github .tooltip-text {
   visibility: hidden;
   width: 15rem;
   background-color: $tertiary;
@@ -214,7 +216,8 @@ body {
 }
 
 .eMail:hover .tooltip-text,
-.linkedIn:hover .tooltip-text {
+.linkedIn:hover .tooltip-text,
+.github:hover .tooltip-text {
   visibility: visible;
 }
 //
