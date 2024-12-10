@@ -270,6 +270,10 @@
   font-family: "Allura";
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-image: linear-gradient(to top, rgba(21, 31, 30, 0.9), rgba(43, 61, 66, 0.9)), url("../images/background-image.svg");
   background-size: contain;
