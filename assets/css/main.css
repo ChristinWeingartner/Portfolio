@@ -289,18 +289,7 @@ body {
   margin: 0 1.25rem;
 }
 
-@media (max-width: 575.98px) {
-  .image {
-    margin-left: 0;
-  }
-}
-@media (min-width: 575.98px) {
-  .image {
-    margin-left: 1rem;
-  }
-}
 .image {
-  position: absolute;
   margin-top: 1rem;
   max-width: 12.5rem;
   width: 100%;
@@ -312,19 +301,6 @@ body {
   max-width: 23.75rem;
 }
 
-/*.cursor {
-  position: absolute;
-  width: 55rem;
-  height: 55rem;
-  border-radius: 50%;
-  pointer-events: none;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.036852240896358524) 4%,
-    rgba(255, 255, 255, 0.022846638655462215) 23%,
-    rgba(255, 255, 255, 0) 70%
-  );
-}*/
 .header {
   padding-top: 15rem;
   padding-bottom: 16rem;
